@@ -1,18 +1,16 @@
-
-import React from 'react';
-import img1 from '../image/imageboximage.png'
-function Card() {
-    return (
-        <div className="card">
-
-            <div className="card-body">
-                <img src={img1} alt="Logo" />
-            </div>
-            <div className="card-top">
-                <h1>Title</h1>
-            </div>
+import React from 'react'
+import image from '../image/imageboximage.png'
+import './card.css'
+const Card = () => {
+  return (
+    <div className='card_container'>
+        <div className='card_image'>
+            <img src={image} className='card_image'></img>
         </div>
-    );
+        <div className='card_title'><h3>Title</h3></div>
+
+    </div>
+  )
 }
 
-export default Card;
+export default Card

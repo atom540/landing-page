@@ -2,7 +2,6 @@
     margin-top: 3rem;
 }
 .introduction_container{
-   
     display: flex;
 }
 .introduction_left{
@@ -34,11 +33,123 @@
     text-align: left;
 }
 
-.introduction_read_more{
-    display:flex
+.introduction_read_more2{
+    display:flex;
+    justify-content: left;
 }
 
 .introduction_arrorw{
 width: 2vw;
   padding-left: 5px;
+}
+
+ /* button */
+.introduction_button{
+    margin-top: 5vh;
+    display:flex;
+}
+.introduction_btn_number{
+    display:flex;
+    gap: 10px;
+    padding-left: 25px;
+    height: 6vh;
+}
+.introduction_call_logo{
+    width: 2vw;
+   
+}
+.introduction_call_btn{
+    border-radius: 15px;
+    background: #E6F6FE;
+   
+}
+.introduction_call_number{
+    color: #1376F8;
+    line-height:0rem;
+    height: 6vh;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
+
+    .introduction_main_container{
+        margin-top: 3rem;
+    }
+    .introduction_container{
+        display: flex;
+    }
+    .introduction_left{
+        font-size:10px;
+        padding-left: 1rem;
+        text-align: left;
+        flex: 1;
+    }
+    .introduction_right{
+        flex: 1;
+    }
+    .introduction_text{
+        font-size:10px;
+        padding-top: 2rem;
+        line-height: 1.5rem
+    }
+    .introduction_image{
+        width: 40vw;
+        height: 30vh;
+    }
+    
+    .introduction_lower{
+        margin-top: 3rem;
+        display:flex;
+    }
+    .introduction_lower_title{
+        flex: 1;
+        font-size: 10px;
+    }
+    .introduction_lower_text{
+        flex: 2;
+        text-align: left;
+        font-size: 10px;
+    }
+    
+    .introduction_read_more2{
+        display:flex;
+        justify-content: left;
+    }
+    
+    .introduction_arrorw{
+    width: 2vw;
+      padding-left: 5px;
+    }
+
+    /* button */
+
+    .introduction_button{
+        display:flex;
+    }
+    .introduction_btn_number{
+        display:flex;
+        gap: 10px;
+        padding-left: 25px;
+        height: 3vh;
+    }
+    .introduction_call_logo{
+        width: 4vw;
+       
+    }
+    .btn{
+        height:4vh;
+        padding: 0;
+    }
+    .introduction_call_btn{
+        border-radius: 10px;
+        background: white;
+       
+    }
+    .introduction_call_number{
+        line-height:0rem;
+        height: 6vh;
+        
+    }
+    
+
+    
 }

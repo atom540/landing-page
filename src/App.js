@@ -19,10 +19,10 @@ function App() {
       <Need_help/>
       <Treating/>
       <Recovery/>
-      <Box2/>
       <ImageBox/>
       <Transistion/>
-    
+      {/* //faq */}
+      <Box2/>
       <Footer/>
     </div>
   );

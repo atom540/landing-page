@@ -1,5 +1,6 @@
 .image-box-container {
     text-align: center;
+    width: 100vw;
 }
 
 .image-box-container h1 {
@@ -23,39 +24,8 @@
 
 .grid-container {
     display: flex;
-    justify-content: space-between;
-    gap: 2vw;
+    justify-content: center;
+    gap: 10vw;
+    align-items: center;
 }
 
-
-@media (max-width: 850px) {
-    .image-box-container h1 {
-        font-size: 3vw;
-    }
-
-    .bottom-button {
-        padding: 3vh 5vw;
-        font-size: 4vw;
-    }
-
-    .grid-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 5vh;
-    }
-
-    .card {
-        width: 80vw;
-        margin: 2vh 0;
-    }
-
-    .card-body {
-        margin-top: 2vh;
-        width: 60vw;
-    }
-
-    .card-body>img {
-        width: 60vw;
-        height: auto;
-    }
-}

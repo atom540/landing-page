@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Card from '../Card/Card'
-import './imagebox.css'; // Import CSS file
+import './imagebox.css'; 
 
 const ImageBox = () => {
     return (

@@ -29,3 +29,39 @@
     color: #1376F8;
     position: relative;
 }
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
+    .Recovery_container{
+        display: flex;
+        width: 80vw;
+        margin: 0 auto;
+       text-align: left;
+       line-height: 1.5rem;
+      gap: 2rem;
+      padding-left:1rem;
+      font-size: 10px;
+    }
+    .Recovery_right{
+        flex: 1;
+    }
+    .Recovery_left{
+        flex: 1;
+    }
+    .Recovery_image{
+        width: 35vw;
+        height: 25vh;
+    }
+    
+    .Recover_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid #1376F8;
+        border-radius: 15px;
+        width: 110%;
+        height: fit-content;
+        color: #1376F8;
+        position: relative;
+    }
+}

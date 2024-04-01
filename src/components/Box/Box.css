@@ -1,10 +1,11 @@
 .Box_container{
-    width:70vw;
+    width:100vw;
     margin: auto;
     margin-top: 5rem;
     background-color :#FFE000;
     padding:5rem;
     line-height: 2rem;
+    box-sizing: border-box;
 }
 .Box_description{
     width:50%;
@@ -24,4 +25,40 @@
 .introduction_read_more{
     display: flex;
   justify-content: center;
+}
+.introduction_arrorw{
+    width: 20px;
+    /* height: 25px; */
+    cursor: pointer;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
+    .Box_container{
+        width:100vw;
+        margin: auto;
+        margin-top: 5rem;
+        background-color :#FFE000;
+        padding:2rem;
+        line-height: 2rem;
+        box-sizing: border-box;
+    }
+    .Box_description{
+        width:80%;
+        margin:  auto;
+        margin-top: 4rem;
+    }
+    
+    .inner_box{
+        border-radius: 15px;
+        text-align:center;
+        width:70%;
+        margin: auto;
+        margin-top: 2rem;
+        background-color: #fff;
+        padding: 2rem;
+    }
+    .introduction_read_more{
+        display: flex;
+      justify-content: center;
+    }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import step from '../image/transition_step.png'
+import './Transition.css'
 const Transistion = () => {
   return (
     <div  className="transition_container">

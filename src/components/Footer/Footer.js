@@ -46,7 +46,8 @@ const Footer = () => {
                         </div>
 
                         <div className="belowsocial">
-                            <img src={lg} alt="" />
+                            <div className="Footer_image">
+                            <img src={lg} alt="" className='footer_logo_img' /></div>
                             <p><strong>Care At Home</strong></p>
                         </div>
                     </div>

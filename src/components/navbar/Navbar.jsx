@@ -14,9 +14,7 @@ const Navbar = () => {
             src="/group-1000001134.svg"
           />
         </div>
-        <div className='Navbar_title'>
-            <h1>Care at home</h1>
-        </div>
+        <button className="bottom-button-btn" >Request a call back</button>
 
       
     </div>
