@@ -1,0 +1,42 @@
+.treating_container{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+   text-align: left;
+   line-height: 2rem;
+   gap: 15rem;
+   padding-left:5rem
+}
+.treating_left{
+    flex: 1;
+}
+.treating_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #1376F8;
+    border-radius: 15px;
+    width: 80%;
+    height: 8vh;
+    color: #1376F8;
+    position: relative;
+}
+.treating_right{
+    flex: 1;
+}
+
+.treating_right_image{
+    position: relative;
+    z-index: 10;
+    width: 20vw;
+    height: 30vh;
+}
+.treating_frame{
+    width: 20vw;
+    height: 32vh;
+    position: relative;
+    background: linear-gradient(52.56deg, rgba(37, 180, 248, 0) 0%, rgba(37, 180, 248, 0.473958) 64.42%, #25B4F8 126.21%);
+    top: -15rem;
+  left: 3rem;
+}

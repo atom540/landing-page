@@ -1,0 +1,27 @@
+.Box_container{
+    width:70vw;
+    margin: auto;
+    margin-top: 5rem;
+    background-color :#FFE000;
+    padding:5rem;
+    line-height: 2rem;
+}
+.Box_description{
+    width:50%;
+    margin:  auto;
+    margin-top: 4rem;
+}
+
+.inner_box{
+    border-radius: 15px;
+    text-align:center;
+    width:60%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+.introduction_read_more{
+    display: flex;
+  justify-content: center;
+}

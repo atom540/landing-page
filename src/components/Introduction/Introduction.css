@@ -1,0 +1,44 @@
+.introduction_main_container{
+    margin-top: 3rem;
+}
+.introduction_container{
+   
+    display: flex;
+}
+.introduction_left{
+    padding-left: 4rem;
+    text-align: left;
+    flex: 1;
+}
+.introduction_right{
+    flex: 1;
+}
+.introduction_text{
+    padding-top: 2rem;
+    line-height: 2rem
+}
+.introduction_image{
+    width: 40vw;
+    height: 50vh;
+}
+
+.introduction_lower{
+    margin-top: 3rem;
+    display:flex;
+}
+.introduction_lower_title{
+    flex: 1
+}
+.introduction_lower_text{
+    flex: 2;
+    text-align: left;
+}
+
+.introduction_read_more{
+    display:flex
+}
+
+.introduction_arrorw{
+width: 2vw;
+  padding-left: 5px;
+}

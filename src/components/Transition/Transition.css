@@ -1,0 +1,14 @@
+.bottom-button {
+    margin-top: 2vh;
+    padding: 1vh 2vw;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-size: 1.6vw;
+}
+
+.bottom-button:hover {
+    background-color: #0056b3;
+}

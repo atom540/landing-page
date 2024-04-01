@@ -1,0 +1,8 @@
+.Navbar_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFE000;
+    color: blue;
+    width: 100vw;
+    height: 10vh;
+}

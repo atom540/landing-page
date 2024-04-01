@@ -1,0 +1,21 @@
+.box2_conatiner{
+    display: flex;
+    width:100vw;
+    height: fit-content;
+    margin-top: 5rem;
+    background-color: #FFE000;
+    padding: 3rem;
+    padding-left: 9rem;
+    text-align: left;
+    line-height: 2rem;
+}
+.box2_left_container{
+    flex: 1;
+}
+.box2_right_container{
+    flex:1;
+}
+.box2_right_image{
+    height:80vh;
+    width:25vw
+}
