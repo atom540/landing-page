@@ -28,20 +28,24 @@
         height: fit-content;
         margin-top: 5rem;
         background-color: #FFE000;
-        padding: 1rem;
-        padding-left: 2rem;
+        padding:10px;
+        padding-left: 1.5rem;
         text-align: left;
-        line-height: 2rem;
-        gap: 2rem;
+        line-height: 1.5rem;
+        /* gap: 2rem; */
+        font-size:10px;
+    }
+    .box2_left_description{
+        line-height: 1rem;
     }
     .box2_left_container{
-        flex: 1;
+        flex: 2;
     }
     .box2_right_container{
         flex:1;
     }
     .box2_right_image{
-        height:45vh;
+        height:40vh;
         width:35vw
     }
 }

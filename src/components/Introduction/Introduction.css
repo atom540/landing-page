@@ -145,8 +145,9 @@ width: 2vw;
        
     }
     .introduction_call_number{
-        line-height:0rem;
+        line-height:2px;
         height: 6vh;
+        width: 8vh;
         
     }
     

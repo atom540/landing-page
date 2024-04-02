@@ -1,5 +1,6 @@
 import React from 'react'
 import './Box.css'
+import image from '../image/Ellipse 5.png'
 const Box = () => {
   return (
     <div className='Box_container'>
@@ -14,6 +15,7 @@ how drugs affect your body, the reasons people turn to them and how to recover f
 
         <div className="inner_box">
             <div className="inner_box_title">
+              <img src ={image} className="green_dot"></img>
                 <h3>Alcohol Addiction</h3>
             </div>
             <div className="inner_box_dexcription">

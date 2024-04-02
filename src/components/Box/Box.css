@@ -31,6 +31,9 @@
     /* height: 25px; */
     cursor: pointer;
 }
+.green_dot{
+    width:3vw
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
     .Box_container{
@@ -61,4 +64,8 @@
         display: flex;
       justify-content: center;
     }
+    .green_dot{
+        width:10vw
+    }
+    
 }

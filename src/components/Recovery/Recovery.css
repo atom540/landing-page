@@ -32,11 +32,11 @@
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
     .Recovery_container{
-        display: flex;
-        width: 80vw;
-        margin: 0 auto;
-       text-align: left;
-       line-height: 1.5rem;
+      display: flex;
+      width: 80vw;
+      margin: 0 auto;
+      text-align: left;
+      line-height: 1.5rem;
       gap: 2rem;
       padding-left:1rem;
       font-size: 10px;
